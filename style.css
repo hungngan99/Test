@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: blue;
+}
+a:hover{
+    color: pink;
+}
+a:active {
+    color: brown;
+}
+table,th,td {
+    border: 1px inset red;
+    border-collapse: collapse   ;
+    border-radius: 10px;
+}
+tr:nth-child(even) {
+    background-color: lightblue;
+}
